@@ -1,0 +1,10 @@
+<app-search-component (textChange)="onSearchTextChange($event)"></app-search-component>
+ <!-- <app-customer-component [CustomerDataSource]="customers"></app-customer-component> 
+ <app-order-component [OrderDataSource]="orders"></app-order-component> -->
+
+  <div>
+    <app-table-directive [DataSource]="customers"></app-table-directive>
+</div> 
+<div>
+    <app-table-directive [DataSource]="orders"></app-table-directive>
+</div> 
